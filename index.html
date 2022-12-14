@@ -1,9 +1,71 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Shota Giorgadze [foty]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
-  <h1>Shotik</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header class="header">
+        <img src="./assets/penguins-of-madagascar-3.jpg" alt="logo penguin">
+        <h1>Foty's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact info</a>
+        </nav>
+    </header>
+    <div id="about" class="about">
+        <div class="info">
+            <h2>About Me</h2>
+            <p>Hello, my name is Shota and welcome to my portfolio website!
+            I've started to dive into programming only recently (11.2022) and while browsing
+            different courses on <a href="https://www.codecademy.com">Codecademy</a>
+            I found myself completely hooked. What kind of a developer I would like to become
+            - I am yet to find out. I want to explore different tools, languages and libraries
+            in order to find what is truly mine. I want to surround myself with the best in
+            the field to make my own growth more rapid and become a force to be reckoned with!
+            I will hold true to myself by having as much fun as I can while I'm on my journey.. 
+            At the point of writting this - my favourite creation so far was the randomInsultGenerator
+            which I will also include in the following project section :)
+            </p>
+        </div>
+        <img src="./assets/46660584_499075117250229_8426915334763966412_n.jpg" alt="">
+    </div> <hr>
+    
+    <div id="projects" class="projects">
+        <h2>Projects</h2>    
+        <i id="eye1" class="fa fa-eye"></i><a id="firstTarget" href="./projects/MyStyleGuide/index.html" target="_blank">My Website Style Guide</a><br>
+        <!-- <i id="buttonz" class="fa fa-angle-up" style="font-size: 24px"></i> -->
+            <div id="myStyle">
+                <img src="./assets/mystyle.jpg" alt="">
+            </div>
+        <i id="eye2" class="fa fa-eye"></i><a id="secondTarget" href="./projects/flexbox-business-site/index.html" target="_blank">Dream Business Page using FlexBox</a><br>
+            <div id="businessFlex">
+                <img src="./assets/dreameshop.jpg" alt="">
+            </div>
+        <i id="eye3" class="fa fa-eye"></i><a id="thirdTarget" href="./projects/responsive-club-starting/index.html" target="_blank">Responsive Club Webpage (it's bad but I was happy for successful parallax effect implementation)</a><br>
+            <div id="sportsClub">
+                <img src="/assets/judoclubresponsive.jpg" alt="">
+            </div>
+        <i id="eye4" class="fa fa-eye"></i><a href="./projects/randomInsultGenerator/index.html" target="_blank">Random Insult Generator</a><br>
+            <div id="insultGen">
+                <img src="/assets/insultGenerator.jpg" alt="">
+            </div>
+    </div><hr>
+    <footer id="contact" class="contact">
+        <h2>Contact info</h2>
+        <p>Let me know if I can be of help</p>
+        <a href="https://github.com/fotyG"><i class="fa fa-github"></i></a>
+        <a href="mailto:giorgadze@inbox.lv"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/%C5%A1ota-giorgadze-188100258/"><i class="fa fa-linkedin"></i></a>
+    </footer>
+    <script src="./script.js"></script>
 </body>
- 
 </html>
